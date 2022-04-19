@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <CheckBox android:id="@+id/checkbox1_chocolate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chocolate_syrup_text" />
+    <CheckBox android:id="@+id/checkbox2_sprinkles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sprinkles_text" />
+    <CheckBox android:id="@+id/checkbox3_nuts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crushed_nuts_text" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:onClick="onSubmit"/>
+
+    <TextView
+        android:id="@+id/text_final_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toppings_label" />
+
+</LinearLayout>

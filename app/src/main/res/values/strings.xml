@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CheckBoxDemo</string>
+    <string name="chocolate_syrup_text">chocolate_syrup</string>
+    <string name="sprinkles_text">sprinkles</string>
+    <string name="crushed_nuts_text">crushed_nuts</string>
+    <string name="toppings_label">TOPPINGS</string>
+    <string name="submit">Submit</string>
+</resources>
